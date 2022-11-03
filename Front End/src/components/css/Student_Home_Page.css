@@ -1,0 +1,302 @@
+
+
+/* Navigation */
+
+
+/*.logo {*/
+/*    line-height: 30px;*/
+/*    position: fixed;*/
+/*    float: left;*/
+/*    margin: 16px 46px;*/
+/*    color: white;*/
+/*    font-weight: bold;*/
+/*    font-size: 20px;*/
+/*    letter-spacing: 2px;*/
+/*}*/
+
+
+.subjects__{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/subjects.webp");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: auto;
+
+}
+
+.nav_{
+    font-size: 40px;
+}
+
+.button_{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.button2_{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Times New Roman";
+}
+
+.button3_{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+a.link:hover {
+    color:blu;
+}
+  
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 30px;
+}
+
+nav ul {
+    line-height: 30px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.navigation ul {
+    background:#0a093f;
+}
+
+nav.grey ul {
+    background: gray;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+.wisdomex_{
+    font-size: 30px;
+    color: whitesmoke;
+    navbutton_home_hovered: true;
+}
+
+.links_{
+    font-family: "Times New Roman";
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.link_active{
+    color: grey;
+}
+
+.links_:hover{
+    color: grey;
+}
+
+.wisdomex_:hover{
+    color: grey;
+}
+/* nav ul li Link a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+} */
+
+span{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 40px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+        font-size: larger;
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/student_home_page.jpg");
+    background-position: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 200px;
+}
+
+.notes{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/notes.webp");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.give_marks_{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/marking_.jpeg");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.notes_view{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/note_view.jpg");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.paper{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/paper.webp");
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.enrol_subs {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/enrol_subs.webp");
+    background-position: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height:100%;
+    padding-top: 200px;
+    width: 100%;
+    position: fixed;
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
+
+}
+
+.title_{
+    color: greenyellow;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 40px;
+
+}
+.click_{
+    padding-top: 150px;
+    padding-left: 250px;
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+
+
+/* Subject */
+  .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* Footer */
+
+footer{
+    background-color: #0a093f;
+}

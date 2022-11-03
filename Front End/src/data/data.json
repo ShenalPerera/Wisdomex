@@ -1,0 +1,47 @@
+{
+    "Header": {
+
+        "title": "WISDOMEX",
+        "paragraph": "Bulid your knowledge with us...."
+
+    },
+    "About": {
+        "paragraph": "We are second year Engineering students in University of Peradeniya. Our main purpose to create this online learning platform is, give an opportunity for students to improve their knowledge by answering mcq ans structured essay papers online."
+    },
+
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "Sachintha",
+            "job": "E/17/100"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Achintha Sandakalum",
+            "job": "E/17/284"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Illama",
+            "job": "E/17/246"
+        }
+    ],
+    "Contact": {
+        "address": "Engineering_Faculty, University_of_Peradeniya.",
+        "email": "e17284@eng.pdn.ac.lk e17XXX@eng.pdn.ac.lk e17XXX@eng.pdn.ac.lk"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Communication",
+            "text": "Students, parents and teachers are able to communicate each other and discuss anythig they want."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Parents Involvement",
+            "text": "Parents are able to see students marks and answered papers."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "MCQ auto marking",
+            "text": "Answered MCQ papers are auto marked."
+        }
+    ]
+}
